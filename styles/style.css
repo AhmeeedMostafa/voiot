@@ -1,0 +1,181 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	outline: 0px;
+	direction: ltr;
+}
+#header{
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	opacity: 0.8;
+}
+#header #logo{
+	padding: 6px 10px 6px 4px;
+	color: white;
+	float: left;
+	font-size: 30px;
+	font-family: Lucida Console;
+	font-style: oblique;
+	font-weight: bold;
+}
+#header #lmenu{
+	padding: 11px 8px;
+	float: left;
+	font-size: 18px;
+	font-family: arial;
+}
+#header #lmenu ul li{
+	list-style-type: none;
+	padding-left: 15px;
+	display: inline-block;
+}
+#header #lmenu ul li a{
+	text-decoration: none;
+	color: white;
+}
+#header #rmenu{
+	float: right;
+	padding: 11px 8px;
+	font-family: arial;
+}
+#header #rmenu ul li{
+	list-style-type: none;
+	padding-left: 7px;
+	display: inline-block;
+}
+#header #rmenu ul li a{
+	text-decoration: none;
+	color: white;
+}
+.txt{
+	font-size: 18px;
+	padding: 6px;
+	margin: 5px 0px 11px 0px;
+}
+#sbutton_label{
+	position: absolute;
+	margin-left: -45px;
+	margin-top: -14px;
+}
+#search_text{
+	border: none;
+	position: absolute;
+	margin-top: -21px;
+	margin-left: -230px;
+}
+.signup{
+	background-color: #ff3591;
+	box-shadow: inset 0px 0px 100px #a50a53;
+	border-radius: 11px;
+	font-family: Arial;
+	color: white;
+	font-size: 60px;
+	padding: 8px 40px;
+	text-decoration: none;
+}
+#sliders_texts{
+	position: absolute;
+	margin-top: -320px;
+	margin-left: 50px;
+}
+#sliders_texts div{
+	font-family: serif;
+	font-size: 50px;
+	color: white;
+	padding-bottom: 50px;
+}
+#sliders_texts div b{
+	font-family: sans-serif;
+}
+#Social_SignIn{
+	position: absolute;
+	margin-top: -155px;
+	right: 70px;
+}
+.btns{
+	padding: 9px;
+	border-radius: 9px;
+	font-size: 22px;
+	font-family: cursive;
+	color: white;
+	background-color: gray;
+}
+.txt:focus{
+	transition: 0.40s;
+	border: 1px solid gray;
+	box-shadow: 0px 0px 11px blue;
+}
+.Failed{
+	background-color: #ffebe8;
+	color: red;
+	border: 1px solid red;
+	border-radius: 9px;
+	padding: 6px;
+	font-size: 22px;
+	text-align: center;
+	margin-top: 9px;
+}
+.Done{
+	background-color: lightblue;
+	color: blue;
+	border: 1px solid blue;
+	border-radius: 9px;
+	padding: 6px;
+	font-size: 22px;
+	text-align: center;
+	margin-top: 9px;
+}
+.lblock{
+	float: left;
+	width: 74%;
+	margin-left: 5px;
+}
+.rblock{
+	float: right;
+	width: 25%;
+}
+#up_ads{
+	border: 1px dotted gray;
+	color: gray;
+	font-size: 30px;
+	padding: 11px;
+	text-align: center;
+	margin-top: 10px;
+}
+.photo_title{
+	position: absolute;
+	background-color: gray;
+	opacity: 0.7;
+	color: white;
+	font-size: 17px;
+}
+.photos_show{
+	display: inline-block;
+	margin: 5px 6px;
+}
+.sphoto_title{
+	text-decoration: none;
+	color: blue;
+}
+.video_title{
+	position: absolute;
+	background-color: gray;
+	opacity: 0.7;
+	color: white;
+	font-size: 17px;
+	margin-top: 11px;
+}
+.videos_show{
+	display: inline-block;
+	margin: 5px 6px;
+}
+.svideo_title{
+	text-decoration: none;
+	color: blue;
+}
+#vide_start_ico{
+	position: absolute;
+	margin-top: 111px;
+	margin-left: 140px;
+}
